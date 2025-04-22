@@ -20,12 +20,12 @@
  * 기능(책임) : x1 x2 x3, y1 y2 y3를 입력받아 크기 비교를 하여 선택영역 안에 있는지 확인하는 함수
  * 반환 : 없음
  */
-int solve()
+void solve()
 {
     int x1, y1 = 0;
 	int x2, y2 = 0;
 
-	int x3, y3 = 0;
+	int x3, y3 = 0;  //점좌표
     printf("선택 영역의 좌상단점 (left, top)?");
     scanf("%d %d", &x1, &y1);
 

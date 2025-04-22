@@ -44,7 +44,7 @@ int solve()
 	set = ham < coke ? ham : coke; 
 	set = set < gamja ? set : gamja; // 2.À§¿¡°Å¶û °¨Æ¢¶û ºñ±³.
 
-	ham -= set;
+	ham -= set;    //¼¼Æ® ¼ö »©Áà¾ßÇÔ.
 	gamja -= set;
 	
 	printf("\n\n»óÇ°¸í		´Ü°¡	¼ö·®	±İ¾×\n");
